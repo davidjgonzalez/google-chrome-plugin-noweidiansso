@@ -1,0 +1,11 @@
+{
+  "name": "NoWeidianSSO",
+  "description": "Blocks SSO redirects on a certain chinese reseller!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "package": "rm -f extension.zip && zip extension -@ < out.txt "    
+  },
+  "author": "",
+  "license": "ISC"
+}
