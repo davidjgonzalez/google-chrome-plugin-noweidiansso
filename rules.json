@@ -8,5 +8,15 @@
       "domains": ["weidian.com"],
       "resourceTypes": ["xmlhttprequest"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/PCQrCode.*.js",
+      "domains": ["weidian.com"],
+      "resourceTypes": ["script" ]
+    }
   }
 ]

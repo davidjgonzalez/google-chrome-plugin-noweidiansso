@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "package": "rm -f extension.zip && zip extension -@ < out.txt "    
+    "package": "rm -f extension.zip && zip extension -@ < extension-files.txt"
   },
   "author": "",
   "license": "ISC"

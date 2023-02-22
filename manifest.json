@@ -1,7 +1,7 @@
 {
   "name": "NoWeidianSSO",
   "description": "Blocks SSO redirects on a certain chinese reseller!",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "manifest_version": 3,
 
   "declarative_net_request": {
