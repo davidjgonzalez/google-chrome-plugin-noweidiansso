@@ -1,7 +1,7 @@
 {
   "name": "NoWeidianSSO",
-  "description": "Blocks SSO redirects on a certain chinese reseller!",
-  "version": "2.0.0",
+  "description": "Blocks SSO redirects on a certain chinese resellers!",
+  "version": "3.0.0",
   "manifest_version": 3,
 
   "declarative_net_request": {
@@ -17,7 +17,13 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "https://weidian.com/*"
+    "https://weidian.com/*",
+    "https://taobao.com/*",
+    "https://www.taobao.com/*",
+    "https://m.taobao.com/*",
+    "https://1688.com/*",
+    "https://www.1688.com/*",
+    "https://m.1688.com/*"
   ],
   "icons": {
     "16": "icons/16.png",

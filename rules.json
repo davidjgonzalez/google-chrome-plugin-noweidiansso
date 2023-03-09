@@ -18,5 +18,25 @@
       "domains": ["weidian.com"],
       "resourceTypes": ["script" ]
     }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "https://h5api.m.taobao.com/h5/mtop.*",
+      "domains": ["taobao.com", "www.taobao.com", "m.taobao.com"],
+      "resourceTypes": ["script" ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "https://h5api.m.1688.com/h5/mtop.*",
+      "domains": ["1688.com", "www.1688.com", "m.1688.com"],
+      "resourceTypes": ["script" ]
+    }
   }
 ]
