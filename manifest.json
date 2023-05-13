@@ -42,7 +42,7 @@
     "web_accessible_resources": [
     {
       "resources": ["injected.js"],
-      "matches": ["https://*.weidian.com/*"]
+      "matches": ["https://*.weidian.com/item*"]
     }
   ]
 }
