@@ -1,1 +1,3 @@
-window.onbeforeunload = function() { return 'Leave page?'; };
+window.onbeforeunload = function () {
+  return "Leave page?";
+};
