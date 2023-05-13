@@ -14,10 +14,11 @@
     ]
   },
   "permissions": [
+    "activeTab",
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "https://weidian.com/*",
+    "https://*.weidian.com/*",
     "https://taobao.com/*",
     "https://www.taobao.com/*",
     "https://m.taobao.com/*",
@@ -30,5 +31,18 @@
     "32": "icons/32.png",
     "48": "icons/48.png",
     "128": "icons/128.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.weidian.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+    "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": ["https://*.weidian.com/*"]
+    }
+  ]
 }
