@@ -34,7 +34,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.weidian.com/*"],
+      "matches": ["https://*.weidian.com/item*"],
       "js": ["content.js"],
       "run_at": "document_start"
     }
