@@ -14,13 +14,23 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
+      "urlFilter": "||thor.weidian.com/promotion/*",
+      "domains": ["weidian.com"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
       "urlFilter": "*/PCQrCode.*.js",
       "domains": ["weidian.com"],
       "resourceTypes": ["script" ]
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
@@ -30,7 +40,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
